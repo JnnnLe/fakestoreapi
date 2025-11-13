@@ -40,6 +40,6 @@ Dispalyed data fetched from api and added minimal "style"
 
 Next: Gather user data, sum total, and add more style
 
-Understand why:
+Take away:
   const card = productCard.content.cloneNode(true);
  */
