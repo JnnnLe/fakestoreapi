@@ -1,9 +1,5 @@
-li ul {
-  margin-top: 6px;
-}
-
-li ul li {
-  background: none;
-  padding: 2px 0;
-  margin-bottom: 2px;
+.product {
+  border: .1em solid rgb(176, 176, 181);
+  background-color: beige;
+  margin-bottom: 1em;
 }

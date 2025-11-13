@@ -5,17 +5,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Project</title>
-
-  <!-- Link to CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <h1>Hello!</h1>
-  <div id="products"></div>
+  <button id="syncBtn">Sync Orders</button>
+  <template id="product-card">
+    <div class="product">
+      <h3 class="title"></h3>
+      <h3 class="price"></h3>
+      <p class="description"></p>
+    </div>
+  </template>
+  <div id="products-container"></div>
+  <div id="status"></div>
+  <ul id="ordersList"></ul>
 
-  <!-- Link to JS -->
   <script src="script.js"></script>
 </body>
 
